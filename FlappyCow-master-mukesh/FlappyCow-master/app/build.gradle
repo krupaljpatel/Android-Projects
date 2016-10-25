@@ -5,11 +5,11 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.quchen.flappycow"
+        applicationId "com.quditcode.flappyhillary"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 25
-        versionName "3.0"
+        versionCode 1
+        versionName "1.0"
     }
     buildTypes {
         release {
