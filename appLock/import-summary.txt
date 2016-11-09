@@ -1,0 +1,368 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\Hitesh Source Code\Android\Apps\Work\appLock
+         -      -                              
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AppLock:
+* .gitignore
+* AppLock.iml
+* README.md
+* ic_launcher-web.png
+* img\
+* img\5.pic_hd.jpg
+* img\6.pic_hd.jpg
+* img\7.pic_hd.jpg
+From MaterialDesign:
+* .gitignore
+* LICENSE
+* MaterialDesignLibrary\
+* MaterialDesignLibrary\.gitignore
+* MaterialDesignLibrary\MaterialDesignDemo\
+* MaterialDesignLibrary\MaterialDesignDemo\.gitignore
+* MaterialDesignLibrary\MaterialDesignDemo\build.gradle
+* MaterialDesignLibrary\MaterialDesignDemo\proguard-rules.pro
+* MaterialDesignLibrary\MaterialDesignDemo\src\
+* MaterialDesignLibrary\MaterialDesignDemo\src\androidTest\
+* MaterialDesignLibrary\MaterialDesignDemo\src\androidTest\java\
+* MaterialDesignLibrary\MaterialDesignDemo\src\androidTest\java\com\
+* MaterialDesignLibrary\MaterialDesignDemo\src\androidTest\java\com\gc\
+* MaterialDesignLibrary\MaterialDesignDemo\src\androidTest\java\com\gc\materialdesigndemo\
+* MaterialDesignLibrary\MaterialDesignDemo\src\androidTest\java\com\gc\materialdesigndemo\ApplicationTest.java
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\AndroidManifest.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\materialdesigndemo\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\materialdesigndemo\ui\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\materialdesigndemo\ui\ButtonsActivity.java
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\materialdesigndemo\ui\MainActivity.java
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\materialdesigndemo\ui\ProgressActivity.java
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\materialdesigndemo\ui\SwitchActivity.java
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\java\com\gc\materialdesigndemo\ui\WidgetActivity.java
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\ic_action_new.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\ic_next.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\icn_button.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\icn_progress.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\icn_select_color.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\icn_switch.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable-xhdpi\icn_widget.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable\blue_background.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable\selector_list.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\drawable\transparent_backgrouns.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\layout\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\layout\activity_buttons.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\layout\activity_main.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\layout\activity_progress.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\layout\activity_switchs.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\layout\activity_widgets.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-hdpi\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-hdpi\ic_launcher.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-mdpi\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-mdpi\ic_launcher.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-xhdpi\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-xhdpi\ic_launcher.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-xxhdpi\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\mipmap-xxhdpi\ic_launcher.png
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\values\
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\values\strings.xml
+* MaterialDesignLibrary\MaterialDesignDemo\src\main\res\values\styles.xml
+* MaterialDesignLibrary\MaterialDesign\
+* MaterialDesignLibrary\MaterialDesign\.gitignore
+* MaterialDesignLibrary\MaterialDesign\build.gradle
+* MaterialDesignLibrary\MaterialDesign\gradle.properties
+* MaterialDesignLibrary\MaterialDesign\proguard-rules.pro
+* MaterialDesignLibrary\MaterialDesign\src\
+* MaterialDesignLibrary\MaterialDesign\src\androidTest\
+* MaterialDesignLibrary\MaterialDesign\src\androidTest\java\
+* MaterialDesignLibrary\MaterialDesign\src\androidTest\java\com\
+* MaterialDesignLibrary\MaterialDesign\src\androidTest\java\com\gc\
+* MaterialDesignLibrary\MaterialDesign\src\androidTest\java\com\gc\materialdesign\
+* MaterialDesignLibrary\MaterialDesign\src\androidTest\java\com\gc\materialdesign\ApplicationTest.java
+* MaterialDesignLibrary\MaterialDesign\src\main\
+* MaterialDesignLibrary\MaterialDesign\src\main\AndroidManifest.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\java\
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\utils\
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\utils\Utils.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\AutoHideButtonFloat.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\Button.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ButtonFlat.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ButtonFloat.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ButtonFloatSmall.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ButtonIcon.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ButtonRectangle.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\Card.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\CheckBox.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\CustomView.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\LayoutRipple.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ProgressBarCircularIndeterminate.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ProgressBarDeterminate.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ProgressBarIndeterminate.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ProgressBarIndeterminateDeterminate.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\ScrollView.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\Slider.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\views\Switch.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\widgets\
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\widgets\ColorSelector.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\widgets\Dialog.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\widgets\ProgressDialog.java
+* MaterialDesignLibrary\MaterialDesign\src\main\java\com\gc\materialdesign\widgets\SnackBar.java
+* MaterialDesignLibrary\MaterialDesign\src\main\res\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\dialog_main_hide_amination.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\dialog_main_show_amination.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\dialog_root_hide_amin.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\dialog_root_show_amin.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\progress_indeterminate_animation.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\snackbar_hide_animation.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\anim\snackbar_show_animation.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-hdpi\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-hdpi\sprite_check.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-ldpi\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-ldpi\sprite_check.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-mdpi\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-mdpi\sprite_check.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xhdpi\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xhdpi\dialog_background.9.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xhdpi\float_button1_shadowp.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xhdpi\float_button_shadow1.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xhdpi\ic_reloj_max.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xhdpi\sprite_check.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xxhdpi\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable-xxhdpi\sprite_check.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_button.9.png
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_button_float.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_button_rectangle.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_checkbox.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_checkbox_check.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_checkbox_uncheck.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_progress.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_switch_ball_uncheck.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\background_transparent.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\shadow_down.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\drawable\shadow_right.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\layout\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\layout\color_selector.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\layout\dialog.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\layout\number_indicator_spinner.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\layout\progress_dialog.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\layout\snackbar.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\values\
+* MaterialDesignLibrary\MaterialDesign\src\main\res\values\attributes.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\values\colors.xml
+* MaterialDesignLibrary\MaterialDesign\src\main\res\values\strings.xml
+* MaterialDesignLibrary\build.gradle
+* MaterialDesignLibrary\gradle.properties
+* MaterialDesignLibrary\gradle\
+* MaterialDesignLibrary\gradle\wrapper\
+* MaterialDesignLibrary\gradle\wrapper\gradle-wrapper.jar
+* MaterialDesignLibrary\gradle\wrapper\gradle-wrapper.properties
+* MaterialDesignLibrary\gradlew
+* MaterialDesignLibrary\gradlew.bat
+* MaterialDesignLibrary\settings.gradle
+* README.md
+* images\
+* images\checkbox.png
+* images\color_selector.png
+* images\dialog.png
+* images\flat_button.png
+* images\float_button.png
+* images\float_small_button.png
+* images\logo.png
+* images\progress_bar_circular_indeterminate.png
+* images\progress_bar_determinate.png
+* images\progress_bar_indeterminate.png
+* images\progress_bar_indeterminate_determinate.png
+* images\rectangle_button.png
+* images\slider.png
+* images\slider_with_number_indicator.png
+* images\snackbar.png
+* images\switch.png
+From PhotoView:
+* .gitignore
+* .travis.yml
+* LICENSE
+* README.md
+* art\
+* art\google-play-badge-small.png
+* art\header_graphic.png
+* build.gradle
+* gradle.properties
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* library\
+* library\LICENSE
+* library\build.gradle
+* library\gradle.properties
+* library\src\
+* library\src\main\
+* library\src\main\AndroidManifest.xml
+* library\src\main\java\
+* library\src\main\java\uk\
+* library\src\main\java\uk\co\
+* library\src\main\java\uk\co\senab\
+* library\src\main\java\uk\co\senab\photoview\
+* library\src\main\java\uk\co\senab\photoview\Compat.java
+* library\src\main\java\uk\co\senab\photoview\DefaultOnDoubleTapListener.java
+* library\src\main\java\uk\co\senab\photoview\IPhotoView.java
+* library\src\main\java\uk\co\senab\photoview\PhotoView.java
+* library\src\main\java\uk\co\senab\photoview\PhotoViewAttacher.java
+* library\src\main\java\uk\co\senab\photoview\gestures\
+* library\src\main\java\uk\co\senab\photoview\gestures\CupcakeGestureDetector.java
+* library\src\main\java\uk\co\senab\photoview\gestures\EclairGestureDetector.java
+* library\src\main\java\uk\co\senab\photoview\gestures\FroyoGestureDetector.java
+* library\src\main\java\uk\co\senab\photoview\gestures\GestureDetector.java
+* library\src\main\java\uk\co\senab\photoview\gestures\OnGestureListener.java
+* library\src\main\java\uk\co\senab\photoview\gestures\VersionedGestureDetector.java
+* library\src\main\java\uk\co\senab\photoview\log\
+* library\src\main\java\uk\co\senab\photoview\log\LogManager.java
+* library\src\main\java\uk\co\senab\photoview\log\Logger.java
+* library\src\main\java\uk\co\senab\photoview\log\LoggerDefault.java
+* library\src\main\java\uk\co\senab\photoview\scrollerproxy\
+* library\src\main\java\uk\co\senab\photoview\scrollerproxy\GingerScroller.java
+* library\src\main\java\uk\co\senab\photoview\scrollerproxy\IcsScroller.java
+* library\src\main\java\uk\co\senab\photoview\scrollerproxy\PreGingerScroller.java
+* library\src\main\java\uk\co\senab\photoview\scrollerproxy\ScrollerProxy.java
+* sample\
+* sample\build.gradle
+* sample\src\
+* sample\src\main\
+* sample\src\main\AndroidManifest.xml
+* sample\src\main\java\
+* sample\src\main\java\uk\
+* sample\src\main\java\uk\co\
+* sample\src\main\java\uk\co\senab\
+* sample\src\main\java\uk\co\senab\photoview\
+* sample\src\main\java\uk\co\senab\photoview\sample\
+* sample\src\main\java\uk\co\senab\photoview\sample\ActivityTransitionActivity.java
+* sample\src\main\java\uk\co\senab\photoview\sample\ActivityTransitionToActivity.java
+* sample\src\main\java\uk\co\senab\photoview\sample\HackyDrawerLayout.java
+* sample\src\main\java\uk\co\senab\photoview\sample\HackyViewPager.java
+* sample\src\main\java\uk\co\senab\photoview\sample\ImageAdapter.java
+* sample\src\main\java\uk\co\senab\photoview\sample\ImageViewHolder.java
+* sample\src\main\java\uk\co\senab\photoview\sample\LauncherActivity.java
+* sample\src\main\java\uk\co\senab\photoview\sample\PicassoSampleActivity.java
+* sample\src\main\java\uk\co\senab\photoview\sample\RotationSampleActivity.java
+* sample\src\main\java\uk\co\senab\photoview\sample\SimpleSampleActivity.java
+* sample\src\main\java\uk\co\senab\photoview\sample\ViewPagerActivity.java
+* sample\src\main\res\
+* sample\src\main\res\drawable-nodpi\
+* sample\src\main\res\drawable-nodpi\wallpaper.jpg
+* sample\src\main\res\layout\
+* sample\src\main\res\layout\activity_launcher.xml
+* sample\src\main\res\layout\activity_main.xml
+* sample\src\main\res\layout\activity_simple.xml
+* sample\src\main\res\layout\activity_transition.xml
+* sample\src\main\res\layout\activity_transition_to.xml
+* sample\src\main\res\layout\activity_view_pager.xml
+* sample\src\main\res\layout\item_image.xml
+* sample\src\main\res\layout\item_list_item.xml
+* sample\src\main\res\menu\
+* sample\src\main\res\menu\main_menu.xml
+* sample\src\main\res\mipmap-hdpi\
+* sample\src\main\res\mipmap-hdpi\ic_launcher.png
+* sample\src\main\res\mipmap-mdpi\
+* sample\src\main\res\mipmap-mdpi\ic_launcher.png
+* sample\src\main\res\mipmap-xhdpi\
+* sample\src\main\res\mipmap-xhdpi\ic_launcher.png
+* sample\src\main\res\mipmap-xxhdpi\
+* sample\src\main\res\mipmap-xxhdpi\ic_launcher.png
+* sample\src\main\res\mipmap-xxxhdpi\
+* sample\src\main\res\mipmap-xxxhdpi\ic_launcher.png
+* sample\src\main\res\values\
+* sample\src\main\res\values\colors.xml
+* sample\src\main\res\values\strings.xml
+* sample\src\main\res\values\styles.xml
+* sample\src\main\res\values\transitions.xml
+* settings.gradle
+From wheel:
+* default.properties
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.2.2.jar => com.google.code.gson:gson:2.2.2
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.2.jar => version 2.2.2 in com.google.code.gson:gson:2.2.2
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In wheel:
+* AndroidManifest.xml => wheel\src\main\AndroidManifest.xml
+* res\ => wheel\src\main\res\
+* src\ => wheel\src\main\java\
+In AppLock:
+* AndroidManifest.xml => appLock\src\main\AndroidManifest.xml
+* assets\ => appLock\src\main\assets\
+* libs\butterknife-6.1.0.jar => appLock\libs\butterknife-6.1.0.jar
+* libs\com.umeng.fb.v5.1.0.jar => appLock\libs\com.umeng.fb.v5.1.0.jar
+* libs\greendao-1.3.7.jar => appLock\libs\greendao-1.3.7.jar
+* libs\httpmime-4.1.3.jar => appLock\libs\httpmime-4.1.3.jar
+* libs\pinyin4j-2.5.0.jar => appLock\libs\pinyin4j-2.5.0.jar
+* libs\uil.jar => appLock\libs\uil.jar
+* libs\umeng-analytics-v5.4.2.jar => appLock\libs\umeng-analytics-v5.4.2.jar
+* libs\volley.jar => appLock\libs\volley.jar
+* proguard-project.txt => appLock\proguard-project.txt
+* res\ => appLock\src\main\res\
+* src\ => appLock\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

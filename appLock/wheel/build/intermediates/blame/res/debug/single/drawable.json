@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\downloads\\appLock\\wheel\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "D:\\downloads\\appLock\\wheel\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "D:\\downloads\\appLock\\wheel\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "D:\\downloads\\appLock\\wheel\\src\\main\\res\\drawable\\wheel_bg.xml"
+    }
+]
